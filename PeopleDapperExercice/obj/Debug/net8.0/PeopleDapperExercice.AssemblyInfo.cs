@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeopleDapperExercice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6a2afb3eae29cb4f0d6cb46b0ae41189fd276ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+646a741ce84254d61ca44660e88e412f54c443c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeopleDapperExercice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeopleDapperExercice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
