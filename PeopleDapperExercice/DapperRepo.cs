@@ -31,6 +31,7 @@ namespace PeopleDapperExercice
             using (var connection = new MySqlConnection(_connectionString))
             {
                 connection.Open();
+                string sql = "SELECT * FROM People WHERE Id = @Id";
                 Person person = connection.QuerySingleOrDefault<Person>(sql, new { Id = id });
 
                 if (person == null)
@@ -69,6 +70,7 @@ namespace PeopleDapperExercice
             {
                 connection.Open();
                 string sql = "DELETE FROM People WHERE Id = @Id";
+                connection.Execute(sql, new { Id = id});
             }
         }
     }
